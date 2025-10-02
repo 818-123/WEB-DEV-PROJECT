@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Dynamic Web App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">MyApp</div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="content-section">
+      <h1>Users List</h1>
+      <form id="search-form">
+        <input type="text" id="search-input" placeholder="Search Username..." />
+        <button type="submit">Search</button>
+      </form>
+      <div id="loading" class="hidden">Loading...</div>
+      <div id="error-message" class="hidden"></div>
+      <div id="cards-container" class="cards-container"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 My Responsive Web App</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
